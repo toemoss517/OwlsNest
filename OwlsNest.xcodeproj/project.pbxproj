@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DCD04199F48CCDDEBFE9056 /* Pods_OwlsNest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481F5FF8B0E69471EC188BC9 /* Pods_OwlsNest.framework */; };
 		32620E4C22F7678400C5B0F3 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32620E4B22F7678400C5B0F3 /* UserVC.swift */; };
+		32620E4E22F7844500C5B0F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32620E4D22F7844500C5B0F3 /* GoogleService-Info.plist */; };
 		3286985D22F73AC700835060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3286985C22F73AC700835060 /* AppDelegate.swift */; };
 		3286986222F73AC700835060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3286986022F73AC700835060 /* Main.storyboard */; };
 		3286986422F73ACA00835060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3286986322F73ACA00835060 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 		3286987222F73ACA00835060 /* OwlsNestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3286987122F73ACA00835060 /* OwlsNestTests.swift */; };
 		3286987D22F73ACA00835060 /* OwlsNestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3286987C22F73ACA00835060 /* OwlsNestUITests.swift */; };
 		3286988B22F73FF100835060 /* SwipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3286988A22F73FF100835060 /* SwipeVC.swift */; };
+		B7DFDD11054929F8EE98B47E /* Pods_OwlsNestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA375584B474C1AA8CD0FCF /* Pods_OwlsNestUITests.framework */; };
+		E65D2B5A6C4F1148ED1A400B /* Pods_OwlsNestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FE8EECB2136896E652241D /* Pods_OwlsNestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C611F8FA41A1B011AFB1E7F /* Pods-OwlsNestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlsNestUITests.debug.xcconfig"; path = "Target Support Files/Pods-OwlsNestUITests/Pods-OwlsNestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		32620E4B22F7678400C5B0F3 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		32620E4D22F7844500C5B0F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3286985922F73AC700835060 /* OwlsNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwlsNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3286985C22F73AC700835060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3286986122F73AC700835060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		3286987C22F73ACA00835060 /* OwlsNestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwlsNestUITests.swift; sourceTree = "<group>"; };
 		3286987E22F73ACA00835060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3286988A22F73FF100835060 /* SwipeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeVC.swift; sourceTree = "<group>"; };
+		481F5FF8B0E69471EC188BC9 /* Pods_OwlsNest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OwlsNest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF73A3F62731CB504D07431 /* Pods-OwlsNestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlsNestTests.release.xcconfig"; path = "Target Support Files/Pods-OwlsNestTests/Pods-OwlsNestTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E5F20FAFE8066DE63045A9E /* Pods-OwlsNest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlsNest.release.xcconfig"; path = "Target Support Files/Pods-OwlsNest/Pods-OwlsNest.release.xcconfig"; sourceTree = "<group>"; };
+		809E063E1A1565F7B87EA85E /* Pods-OwlsNest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlsNest.debug.xcconfig"; path = "Target Support Files/Pods-OwlsNest/Pods-OwlsNest.debug.xcconfig"; sourceTree = "<group>"; };
+		A6FE8EECB2136896E652241D /* Pods_OwlsNestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OwlsNestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA96317838DC8FACA4401A01 /* Pods-OwlsNestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlsNestUITests.release.xcconfig"; path = "Target Support Files/Pods-OwlsNestUITests/Pods-OwlsNestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AFA375584B474C1AA8CD0FCF /* Pods_OwlsNestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OwlsNestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D912C955C762176318F660A8 /* Pods-OwlsNestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlsNestTests.debug.xcconfig"; path = "Target Support Files/Pods-OwlsNestTests/Pods-OwlsNestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DCD04199F48CCDDEBFE9056 /* Pods_OwlsNest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E65D2B5A6C4F1148ED1A400B /* Pods_OwlsNestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7DFDD11054929F8EE98B47E /* Pods_OwlsNestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				3286987022F73ACA00835060 /* OwlsNestTests */,
 				3286987B22F73ACA00835060 /* OwlsNestUITests */,
 				3286985A22F73AC700835060 /* Products */,
+				9833714DE7EE60E66E0BA217 /* Pods */,
+				3D56F9B42FEECFF0E1BF3B25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +125,7 @@
 				3286986322F73ACA00835060 /* Assets.xcassets */,
 				3286986522F73ACA00835060 /* LaunchScreen.storyboard */,
 				3286986822F73ACA00835060 /* Info.plist */,
+				32620E4D22F7844500C5B0F3 /* GoogleService-Info.plist */,
 			);
 			path = OwlsNest;
 			sourceTree = "<group>";
@@ -128,6 +148,30 @@
 			path = OwlsNestUITests;
 			sourceTree = "<group>";
 		};
+		3D56F9B42FEECFF0E1BF3B25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				481F5FF8B0E69471EC188BC9 /* Pods_OwlsNest.framework */,
+				A6FE8EECB2136896E652241D /* Pods_OwlsNestTests.framework */,
+				AFA375584B474C1AA8CD0FCF /* Pods_OwlsNestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9833714DE7EE60E66E0BA217 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				809E063E1A1565F7B87EA85E /* Pods-OwlsNest.debug.xcconfig */,
+				5E5F20FAFE8066DE63045A9E /* Pods-OwlsNest.release.xcconfig */,
+				D912C955C762176318F660A8 /* Pods-OwlsNestTests.debug.xcconfig */,
+				5AF73A3F62731CB504D07431 /* Pods-OwlsNestTests.release.xcconfig */,
+				0C611F8FA41A1B011AFB1E7F /* Pods-OwlsNestUITests.debug.xcconfig */,
+				AA96317838DC8FACA4401A01 /* Pods-OwlsNestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3286988122F73ACA00835060 /* Build configuration list for PBXNativeTarget "OwlsNest" */;
 			buildPhases = (
+				B460F8D788F5CED13D89CF74 /* [CP] Check Pods Manifest.lock */,
 				3286985522F73AC700835060 /* Sources */,
 				3286985622F73AC700835060 /* Frameworks */,
 				3286985722F73AC700835060 /* Resources */,
+				FD9A2EE95348FB3CB609D65B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3286988422F73ACA00835060 /* Build configuration list for PBXNativeTarget "OwlsNestTests" */;
 			buildPhases = (
+				7D2D206441A7D96858DCFB19 /* [CP] Check Pods Manifest.lock */,
 				3286986922F73ACA00835060 /* Sources */,
 				3286986A22F73ACA00835060 /* Frameworks */,
 				3286986B22F73ACA00835060 /* Resources */,
@@ -170,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3286988722F73ACA00835060 /* Build configuration list for PBXNativeTarget "OwlsNestUITests" */;
 			buildPhases = (
+				E8FC9D4C58B68C1E21552C3D /* [CP] Check Pods Manifest.lock */,
 				3286987422F73ACA00835060 /* Sources */,
 				3286987522F73ACA00835060 /* Frameworks */,
 				3286987622F73ACA00835060 /* Resources */,
@@ -233,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3286986722F73ACA00835060 /* LaunchScreen.storyboard in Resources */,
+				32620E4E22F7844500C5B0F3 /* GoogleService-Info.plist in Resources */,
 				3286986422F73ACA00835060 /* Assets.xcassets in Resources */,
 				3286986222F73AC700835060 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +302,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D2D206441A7D96858DCFB19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OwlsNestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B460F8D788F5CED13D89CF74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OwlsNest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8FC9D4C58B68C1E21552C3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OwlsNestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD9A2EE95348FB3CB609D65B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OwlsNest/Pods-OwlsNest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OwlsNest/Pods-OwlsNest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OwlsNest/Pods-OwlsNest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3286985522F73AC700835060 /* Sources */ = {
@@ -434,6 +569,7 @@
 		};
 		3286988222F73ACA00835060 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809E063E1A1565F7B87EA85E /* Pods-OwlsNest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +588,7 @@
 		};
 		3286988322F73ACA00835060 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5F20FAFE8066DE63045A9E /* Pods-OwlsNest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +607,7 @@
 		};
 		3286988522F73ACA00835060 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D912C955C762176318F660A8 /* Pods-OwlsNestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +629,7 @@
 		};
 		3286988622F73ACA00835060 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF73A3F62731CB504D07431 /* Pods-OwlsNestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +651,7 @@
 		};
 		3286988822F73ACA00835060 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C611F8FA41A1B011AFB1E7F /* Pods-OwlsNestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +672,7 @@
 		};
 		3286988922F73ACA00835060 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA96317838DC8FACA4401A01 /* Pods-OwlsNestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

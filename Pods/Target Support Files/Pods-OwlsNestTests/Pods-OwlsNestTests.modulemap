@@ -1,0 +1,6 @@
+framework module Pods_OwlsNestTests {
+  umbrella header "Pods-OwlsNestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
