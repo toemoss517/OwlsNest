@@ -12,6 +12,8 @@ class SwipeVC: UIViewController {
 
     @IBOutlet weak var card: UIView!
     @IBOutlet weak var thumb: UIImageView!
+    @IBOutlet weak var eventBtn: UIButton!
+    @IBOutlet weak var createEventBtn: UIButton!
     
     var divisor: CGFloat!
     
@@ -20,6 +22,10 @@ class SwipeVC: UIViewController {
         
         card.layer.cornerRadius = 10
         card.layer.masksToBounds = true
+        eventBtn.layer.cornerRadius = 10
+        eventBtn.layer.masksToBounds = true
+        createEventBtn.layer.cornerRadius = 10
+        createEventBtn.layer.masksToBounds = true
         divisor = (view.frame.width / 2) / 0.61
     }
     
