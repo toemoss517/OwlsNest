@@ -10,6 +10,10 @@ target 'OwlsNest' do
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
+  
+  # Fix warning glitch
+  pod 'Protobuf', :inhibit_warnings => true
+  pod 'FirebaseFirestore', :inhibit_warnings => true
 
   target 'OwlsNestTests' do
     inherit! :search_paths

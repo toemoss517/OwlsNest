@@ -51,14 +51,14 @@ class SwipeVC: UIViewController {
         if sender.state == UIGestureRecognizer.State.ended {
             
             if card.center.x < 75 {
-                // move off left
+                // move off to the left
                 UIView.animate(withDuration: 0.3) {
                     card.center = CGPoint(x: card.center.x - 200, y: card.center.y + 75)
                     card.alpha = 0
                 }
                 return
             } else if card.center.x > (view.frame.width - 75) {
-                // move off right
+                // move off to the right
                 UIView.animate(withDuration: 0.3) {
                     card.center = CGPoint(x: card.center.x + 200, y: card.center.y + 75)
                     card.alpha = 0

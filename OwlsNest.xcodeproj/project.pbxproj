@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1DCD04199F48CCDDEBFE9056 /* Pods_OwlsNest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481F5FF8B0E69471EC188BC9 /* Pods_OwlsNest.framework */; };
 		32620E4C22F7678400C5B0F3 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32620E4B22F7678400C5B0F3 /* UserVC.swift */; };
-		32620E4E22F7844500C5B0F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32620E4D22F7844500C5B0F3 /* GoogleService-Info.plist */; };
+		327AB3F622F7BFEC00815025 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AB3F522F7BFEC00815025 /* LoginVC.swift */; };
+		327AB3FE22F7C1EE00815025 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 327AB3FD22F7C1EE00815025 /* GoogleService-Info.plist */; };
 		3286985D22F73AC700835060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3286985C22F73AC700835060 /* AppDelegate.swift */; };
 		3286986222F73AC700835060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3286986022F73AC700835060 /* Main.storyboard */; };
 		3286986422F73ACA00835060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3286986322F73ACA00835060 /* Assets.xcassets */; };
@@ -17,6 +18,8 @@
 		3286987222F73ACA00835060 /* OwlsNestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3286987122F73ACA00835060 /* OwlsNestTests.swift */; };
 		3286987D22F73ACA00835060 /* OwlsNestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3286987C22F73ACA00835060 /* OwlsNestUITests.swift */; };
 		3286988B22F73FF100835060 /* SwipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3286988A22F73FF100835060 /* SwipeVC.swift */; };
+		32FFF80422FA1C130068FE77 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FFF80322FA1C130068FE77 /* SignUpVC.swift */; };
+		32FFF80622FA1C260068FE77 /* SignUp2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FFF80522FA1C260068FE77 /* SignUp2VC.swift */; };
 		B7DFDD11054929F8EE98B47E /* Pods_OwlsNestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA375584B474C1AA8CD0FCF /* Pods_OwlsNestUITests.framework */; };
 		E65D2B5A6C4F1148ED1A400B /* Pods_OwlsNestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FE8EECB2136896E652241D /* Pods_OwlsNestTests.framework */; };
 /* End PBXBuildFile section */
@@ -41,7 +44,8 @@
 /* Begin PBXFileReference section */
 		0C611F8FA41A1B011AFB1E7F /* Pods-OwlsNestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlsNestUITests.debug.xcconfig"; path = "Target Support Files/Pods-OwlsNestUITests/Pods-OwlsNestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		32620E4B22F7678400C5B0F3 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
-		32620E4D22F7844500C5B0F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		327AB3F522F7BFEC00815025 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		327AB3FD22F7C1EE00815025 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		3286985922F73AC700835060 /* OwlsNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwlsNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3286985C22F73AC700835060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3286986122F73AC700835060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		3286987C22F73ACA00835060 /* OwlsNestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwlsNestUITests.swift; sourceTree = "<group>"; };
 		3286987E22F73ACA00835060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3286988A22F73FF100835060 /* SwipeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeVC.swift; sourceTree = "<group>"; };
+		32FFF80322FA1C130068FE77 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		32FFF80522FA1C260068FE77 /* SignUp2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp2VC.swift; sourceTree = "<group>"; };
 		481F5FF8B0E69471EC188BC9 /* Pods_OwlsNest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OwlsNest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF73A3F62731CB504D07431 /* Pods-OwlsNestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlsNestTests.release.xcconfig"; path = "Target Support Files/Pods-OwlsNestTests/Pods-OwlsNestTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E5F20FAFE8066DE63045A9E /* Pods-OwlsNest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlsNest.release.xcconfig"; path = "Target Support Files/Pods-OwlsNest/Pods-OwlsNest.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,13 +125,16 @@
 			isa = PBXGroup;
 			children = (
 				3286985C22F73AC700835060 /* AppDelegate.swift */,
+				327AB3F522F7BFEC00815025 /* LoginVC.swift */,
+				32FFF80322FA1C130068FE77 /* SignUpVC.swift */,
+				32FFF80522FA1C260068FE77 /* SignUp2VC.swift */,
 				3286988A22F73FF100835060 /* SwipeVC.swift */,
 				32620E4B22F7678400C5B0F3 /* UserVC.swift */,
 				3286986022F73AC700835060 /* Main.storyboard */,
 				3286986322F73ACA00835060 /* Assets.xcassets */,
 				3286986522F73ACA00835060 /* LaunchScreen.storyboard */,
 				3286986822F73ACA00835060 /* Info.plist */,
-				32620E4D22F7844500C5B0F3 /* GoogleService-Info.plist */,
+				327AB3FD22F7C1EE00815025 /* GoogleService-Info.plist */,
 			);
 			path = OwlsNest;
 			sourceTree = "<group>";
@@ -168,7 +177,6 @@
 				0C611F8FA41A1B011AFB1E7F /* Pods-OwlsNestUITests.debug.xcconfig */,
 				AA96317838DC8FACA4401A01 /* Pods-OwlsNestUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -281,7 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3286986722F73ACA00835060 /* LaunchScreen.storyboard in Resources */,
-				32620E4E22F7844500C5B0F3 /* GoogleService-Info.plist in Resources */,
+				327AB3FE22F7C1EE00815025 /* GoogleService-Info.plist in Resources */,
 				3286986422F73ACA00835060 /* Assets.xcassets in Resources */,
 				3286986222F73AC700835060 /* Main.storyboard in Resources */,
 			);
@@ -395,7 +403,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3286988B22F73FF100835060 /* SwipeVC.swift in Sources */,
+				32FFF80622FA1C260068FE77 /* SignUp2VC.swift in Sources */,
 				32620E4C22F7678400C5B0F3 /* UserVC.swift in Sources */,
+				327AB3F622F7BFEC00815025 /* LoginVC.swift in Sources */,
+				32FFF80422FA1C130068FE77 /* SignUpVC.swift in Sources */,
 				3286985D22F73AC700835060 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
