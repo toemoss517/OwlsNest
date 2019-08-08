@@ -23,8 +23,14 @@ class UserVC: UIViewController {
         card.layer.masksToBounds = true
         chooseYearBtn.layer.cornerRadius = 5
         chooseYearBtn.layer.masksToBounds = true
+        yearCollection.forEach {
+            (button) in button.layer.borderWidth = 1; button.layer.borderColor = #colorLiteral(red: 0, green: 0.1817905009, blue: 0.4327191114, alpha: 1)
+        }
         chooseCollegeBtn.layer.cornerRadius = 5
         chooseCollegeBtn.layer.masksToBounds = true
+        collegeCollection.forEach {
+            (button) in button.layer.borderWidth = 1; button.layer.borderColor = #colorLiteral(red: 0, green: 0.1817905009, blue: 0.4327191114, alpha: 1)
+        }
     }
 
     @IBAction func chooseYear(_ sender: UIButton) {
