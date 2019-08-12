@@ -17,7 +17,7 @@ class LoginVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         loginBtn.layer.cornerRadius = 10
         loginBtn.layer.masksToBounds = true
     }
@@ -26,14 +26,10 @@ class LoginVC: UIViewController {
         if let email = emailField.text, let pwd = pwdField.text {
             Auth.auth().signIn(withEmail: email, password: pwd, completion: { (user, error) in
                 if error != nil {
-                    // give error message
-//                    Auth.auth().createUser(withEmail: email, password: pwd, completion: { (user, error) in
-//                        if error != nil {
-//                            print("unable to authenticate")
-//                        } else {
-//                            print("authenticated")
-//                        }
-//                    })
+                    // ADD CODE TO GIVE USER ERROR MESSAGE
+                    print("nope")
+                } else {
+                    self.performSegue(withIdentifier: "ToSwipe", sender: nil)
                 }
             })
         }
